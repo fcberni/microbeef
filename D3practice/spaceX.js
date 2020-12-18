@@ -12,5 +12,8 @@ d3.json(url).then(spaceXResults =>
 d3.json(url).then(spaceXResults =>
     console.log(spaceXResults[0].location.latitude));
 
-
+// Changing code to the printed console message from a simple hello
+d3.json("samples.json").then(function(data){
+    console.log(data);
+});
         
